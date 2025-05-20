@@ -16,14 +16,26 @@ Ce projet Kaggle prédit la survie des passagers du Titanic à partir de donnée
 - `README.md` : Ce fichier
 
 ## Modèles disponibles
-
+`main.py`
 - RandomForest (avec grid search)
 - XGBoost (avec grid search)
 - VotingClassifier (ensemble)
-- Sélection de variables (RFE)
+- Sélection de variables (Recursive Feature Elimination)
 - Visualisation des données
 
-##
+
+
+`notebook.py`
+- Travail sur Features plus précis
+- RandomForest (avec grid search)
+- GradientBoosting (avec grid search)
+- LogisticRegression (avec grid search)
+- XGBoost (avec grid search)
+- Test avec cross_validation
+- StackingClassifier avec plusieurs combinaisons
+-  Visualisation des données
+
+## Score
 
 - `Main.py` Best Score: 0.77751
 - `notebook.py`  Best Score: 0.78229
