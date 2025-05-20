@@ -10,7 +10,8 @@ Ce projet Kaggle prédit la survie des passagers du Titanic à partir de donnée
   - `model.py` : Entraînement et sélection de modèles (RandomForest, XGBoost, VotingClassifier, etc.)
   - `utils.py` : Utilitaires (création d'environnement, installation)
   - `visualization.py` : Fonctions de visualisation
-- `main.py` : Pipeline principal (prétraitement, entraînement, prédiction, export Kaggle)
+- `main.py` : Pipeline en script (prétraitement, entraînement, prédiction, export Kaggle) 
+- `notebook.py` : Pipeline notebook avec visu (prétraitement, entraînement, prédiction, export Kaggle)
 - `requirements.txt` : Dépendances Python
 - `README.md` : Ce fichier
 
@@ -22,11 +23,10 @@ Ce projet Kaggle prédit la survie des passagers du Titanic à partir de donnée
 - Sélection de variables (RFE)
 - Visualisation des données
 
-## Améliorations possibles
+##
 
-- Ajouter des notebooks d’exploration (`.ipynb`)
-- Ajouter des tests unitaires (`pytest`)
-- Ajouter un script d’évaluation automatique sur validation locale
+- `Main.py` Best Score: 0.77751
+- `notebook.py`  Best Score: 0.78229
 
 ## Utilisation
 
